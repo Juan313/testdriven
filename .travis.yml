@@ -2,6 +2,8 @@
 language: node_js
 node_js: '9'
 
+dist: xenial # Or a more recent supported distribution
+
 before_install:
   - stty cols 80
 
